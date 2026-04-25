@@ -1,0 +1,36 @@
+## .NET
+obj/
+bin/
+*.user
+*.suo
+.vs/
+*.swp
+
+## Build outputs
+out/
+publish/
+
+## IDE
+.vscode/
+.idea/
+*.DS_Store
+
+## Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/tfplan
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+## Docker
+.dockerignore
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
